@@ -9,7 +9,7 @@ class wallpainter{
         int test_strenght_of_hang();
         int populate_wallpaper();
         int map_wallpaper_to_wall();
-        bool stabilize_position(int x, int y, int z);
+        void stabilize_position(int x, int y, int z);
 }; 
 
 #endif

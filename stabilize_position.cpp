@@ -13,9 +13,8 @@ THis coordinate is for painting on teh wall so the z ccordinate is a slight dist
 
 
 */
-bool wallpainter::stabilize_position(int x, int y, int z){
+void wallpainter::stabilize_position(int x, int y, int z){
     // move to the position (x,y,z) on the wall
     // return true if the position is reached
     // return false if the position is not reached
-    return true;
 }
