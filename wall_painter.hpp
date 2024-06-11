@@ -10,6 +10,7 @@ class wallpainter{
         int populate_wallpaper();
         int map_wallpaper_to_wall();
         void stabilize_position(int x, int y, int z);
+        bool move_to_position(int x, int y, int z);
 }; 
 
 #endif
