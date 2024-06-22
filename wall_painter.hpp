@@ -1,5 +1,6 @@
 #ifndef WALL_PAINTER_HPP
 #define WALL_PAINTER_HPP
+#include <vector>
 
 class coordinate{
     public:
@@ -12,6 +13,7 @@ class coordinate{
 class wallpainter{
 
     public:
+        std::vector<coordinate> wall_coordinates;
         wallpainter();
         int paint();
         int test_strenght_of_hang();
