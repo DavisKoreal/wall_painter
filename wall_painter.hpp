@@ -1,6 +1,14 @@
 #ifndef WALL_PAINTER_HPP
 #define WALL_PAINTER_HPP
 
+class coordinate{
+    public:
+        int x;
+        int y;
+        int z;
+        coordinate(int x, int y, int z);
+};
+
 class wallpainter{
 
     public:
@@ -12,6 +20,7 @@ class wallpainter{
         void stabilize_position(int x, int y, int z);
         bool move_to_position(int x, int y, int z);
         int take_picture();
+        coordinate get_current_coordinates();
 }; 
 
 #endif
