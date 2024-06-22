@@ -21,6 +21,7 @@ class wallpainter{
         bool move_to_position(int x, int y, int z);
         int take_picture();
         coordinate get_current_coordinates();
+        ~wallpainter();
 }; 
 
 #endif
