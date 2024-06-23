@@ -23,8 +23,6 @@ void wallpainter::stabilize_position(int x, int y, int z){
         double error_z = find_error(current.z, z);
         move_to_position(x, y, z);
     }
-
-    
     // return false if the position is not reached
 }
 
